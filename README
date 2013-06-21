@@ -5,6 +5,6 @@ David Chisnel is the author and I do not claim ownership over his code.
 I have simply taken his code [3] and modified it to work with LLVM3.3 and added a missing function implementation.
 
 [1] http://www.youtube.com/watch?v=1Hwnagof1Wo
-[2] http://cs.swan.ac.uk/~csdavec/FOSDEM12/DSLsWithLLVM.pdf
+[2] http://cs.swan.ac.uk/~csdavec/FOSDEM12/DSLsWithLLVM.pdf (also in talk/DSLsWithLLVM.pdf)
 [3] http://cs.swan.ac.uk/~csdavec/FOSDEM12/examples.tbz2
 
