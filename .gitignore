@@ -1,0 +1,12 @@
+#Built object files
+*.o
+
+grammar.out
+grammar.h
+runtime.bc
+
+cellatom
+lemon
+
+#Vim swap files
+*.swp
