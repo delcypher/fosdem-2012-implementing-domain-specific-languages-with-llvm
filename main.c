@@ -32,6 +32,11 @@ static void logTimeSince(clock_t c1, char *msg)
     ((double)c2 - (double)c1) / (double)CLOCKS_PER_SEC, r.ru_maxrss);
 }
 
+static int digittoint(char c)
+{
+  return ( (int) (c  - '0') );
+}
+
 int main(int argc, char **argv)
 {
 #ifdef DEBUG_PARSER
