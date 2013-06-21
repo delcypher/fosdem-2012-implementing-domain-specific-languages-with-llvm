@@ -1,20 +1,20 @@
 #include "llvm/LinkAllPasses.h"
 #include <llvm/Bitcode/ReaderWriter.h>
-#include <llvm/Constants.h>
-#include <llvm/DerivedTypes.h>
+#include <llvm/IR/Constants.h>
+#include <llvm/IR/DerivedTypes.h>
 #include <llvm/Linker.h>
 #include <llvm/ExecutionEngine/ExecutionEngine.h>
 #include <llvm/ExecutionEngine/JIT.h>
 #include <llvm/ExecutionEngine/GenericValue.h>
-#include <llvm/GlobalVariable.h>
-#include <llvm/Module.h>
-#include <llvm/LLVMContext.h>
+#include <llvm/IR/GlobalVariable.h>
+#include <llvm/IR/Module.h>
+#include <llvm/IR/LLVMContext.h>
 #include <llvm/PassManager.h>
 #include "llvm/Analysis/Verifier.h"
-#include <llvm/Support/IRBuilder.h>
+#include <llvm/IR/IRBuilder.h>
 #include <llvm/Support/MemoryBuffer.h>
 #include "llvm/Transforms/IPO/PassManagerBuilder.h"
-#include <llvm/Target/TargetData.h>
+#include <llvm/IR/DataLayout.h>
 #include <llvm/Support/system_error.h>
 #include <llvm/Support/TargetSelect.h>
 
