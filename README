@@ -1,0 +1,7 @@
+This code was used for the FOSDEM2012 talk by David Chisnel on "Implementing Domain Specific Languages with LLVM"[1].
+
+David Chisnel is the author and I do not claim ownership over his code.
+
+[1] http://www.youtube.com/watch?v=1Hwnagof1Wo
+[2] http://cs.swan.ac.uk/~csdavec/FOSDEM12/DSLsWithLLVM.pdf
+
